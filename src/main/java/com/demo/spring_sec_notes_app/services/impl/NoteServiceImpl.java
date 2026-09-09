@@ -1,8 +1,9 @@
-package com.demo.spring_sec_notes_app.services;
+package com.demo.spring_sec_notes_app.services.impl;
 
 
 import com.demo.spring_sec_notes_app.models.Note;
 import com.demo.spring_sec_notes_app.repositories.NoteRepository;
+import com.demo.spring_sec_notes_app.services.NoteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
